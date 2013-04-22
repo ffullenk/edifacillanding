@@ -18,7 +18,7 @@
 
 var config = {
   detailedErrors: false
-, hostname: null
+, hostname: edifacil.com
 , port: 26998
 , model: {
     defaultAdapter: 'mongo'
