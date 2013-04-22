@@ -1,0 +1,41 @@
+[Mon, 22 Apr 2013 22:46:55 GMT] INFO Server starting with config: {
+  "environment": "development",
+  "workers": 1,
+  "port": 26998,
+  "spdy": null,
+  "ssl": null,
+  "debug": true,
+  "rotateWorkers": false,
+  "rotationWindow": 7200000,
+  "rotationTimeout": 300000,
+  "logDir": "/home/ffullenk/desarrollo/edifacillanding/log",
+  "gracefulShutdownTimeout": 30000,
+  "heartbeatInterval": 5000,
+  "heartbeatWindow": 20000,
+  "staticFilePath": "/home/ffullenk/desarrollo/edifacillanding/public",
+  "sessions": {
+    "store": "memory",
+    "key": "sid",
+    "expiry": 1209600
+  },
+  "cookieSessionKey": "sdata",
+  "metrics": null,
+  "i18n": {
+    "defaultLocale": "en-us",
+    "loadPaths": [
+      "/home/ffullenk/desarrollo/edifacillanding/config/locales"
+    ]
+  },
+  "hostname": null,
+  "fullHostname": null,
+  "connectCompatibility": false,
+  "detailedErrors": true,
+  "model": {
+    "defaultAdapter": "memory"
+  }
+}
+[Mon, 22 Apr 2013 22:46:55 GMT] INFO Creating 1 worker process.
+[Mon, 22 Apr 2013 22:46:56 GMT] INFO Server worker running in development on port 26998 with a PID of: 9742
+[Mon, 22 Apr 2013 22:47:20 GMT] INFO Code changed, killing 9742, cycling ...
+[Mon, 22 Apr 2013 22:47:20 GMT] INFO Creating 1 worker process.
+[Mon, 22 Apr 2013 22:47:21 GMT] INFO Server worker running in development on port 26998 with a PID of: 9747

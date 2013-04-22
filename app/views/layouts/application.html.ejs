@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Edifacil.com</title>
+    <meta name="description" content="Edifacil.com plataforma de gestion de condominios y edificios">
+    <meta name="author" content="Rialis">
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- The HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <%- scriptLink('http://html5shim.googlecode.com/svn/trunk/html5.js', {type:'text/javascript'}) %>
+    <![endif]-->
+
+    <%- scriptLink('/js/jquery.min.js', {type:'text/javascript'}) %>
+    <%- scriptLink('/js/bootstrap.min.js', {type:'text/javascript'}) %>
+    <%- scriptLink('/js/core/core.js', {type: 'text/javascript'}) %>
+    <!-- <%- scriptLink('/js/models/your_model.js', {type:'text/javascript'}) %> -->
+    <%- scriptLink('/js/config/init.js', {type: 'text/javascript'}) %>
+    <%- scriptLink('/js/theme.js', {type: 'text/javascript'}) %>
+
+    <%- styleLink('/css/bootstrap.min.css', {rel:'stylesheet'}) %>
+    <%- styleLink('/css/style.css', {rel:'stylesheet'}) %>
+    <%- styleLink('/css/animate.css', {rel:'stylesheet'}) %>
+    <%- styleLink('/css/blog.css', {rel:'stylesheet'}) %>
+    <%- styleLink('/css/external-pages.css', {rel:'stylesheet'}) %>
+    <%- styleLink('/css/reset.css', {rel:'stylesheet'}) %>
+    <%- styleLink('/css/signin.css', {rel:'stylesheet'}) %>
+    <%- styleLink('/css/signup.css', {rel:'stylesheet'}) %>
+    <%- styleLink('/css/theme.css', {rel:'stylesheet'}) %>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+
+    <!-- The fav and touch icons -->
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  </head>
+ <body>
+   
+    <!-- begins navbar -->
+  <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </a>
+            <a class="brand scroller" data-section="body" href="http://wwww.edifacil.com">
+                <h2>Edi<span class="bold">Fácil</span>.com</h2>
+
+
+            </a>
+        <div class="nav-collapse collapse">
+                <ul class="nav pull-right">
+                    <li><a href="#" class="scroller" data-section="#features">Características</a></li>
+                    <li><a href="#" class="scroller" data-section="#pricing">Tarifas</a></li>
+                    <li><a href="#" class="scroller" data-section="#footer">Contáctanos</a></li>
+                  
+                    <li><a class="btn-header" href="http://app.edifacil.com">Ingresar</a></li>
+                </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ends navbar -->
+
+
+      <%- yield(); %>
+
+    <!-- starts footer -->
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+              
+                <div class="span4 contact_us">
+                    <h3>Contáctenos</h3>
+
+                    <h2>contacto@edifacil.com</h2>
+                   <!--  <form class="form-horizontal">
+                        <div class="field">
+                            <div class="label_field">
+                                <label for="inputName">Nombre</label>
+                            </div>
+                            <input type="text" id="inputName" />
+                        </div>
+
+                        <div class="field">
+                            <div class="label_field">
+                                <label for="inputEmail">Email</label>
+                            </div>
+                            <input type="text" id="inputEmail" />
+                        </div>
+
+                        <div class="field">
+                            <div class="label_field">
+                                <label for="inputCity">Ciudad</label>
+                            </div>
+                            <input type="text" id="inputCity" />
+                        </div>
+
+                        <div class="field">
+                            <div class="label_field">
+                                <label for="inputComment">Comentarios</label>
+                            </div>
+                            <textarea name="comments"></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar</button>
+                    </form> -->
+                </div>
+            </div>
+            <hr>
+            <div class="row copyright">
+                <div class="span5">
+                    <h3>Social</h3>
+                    <a href="#" class="social fb">
+                        <i class="i_facebook"></i>
+                    </a>
+                    <a href="#" class="social tw">
+                        <i class="i_twitter"></i>
+                    </a>
+                    <a href="#" class="social yt">
+                        <i class="i_youtube"></i>
+                    </a>
+                </div>
+                <div class="span2 offset5 copy">
+                    <p>2013 - Edifacil.com - Un producto Rialis</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
