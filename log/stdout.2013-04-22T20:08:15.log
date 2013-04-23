@@ -1,11 +1,11 @@
-[Tue, 23 Apr 2013 02:06:21 GMT] INFO Server starting with config: {
-  "environment": "development",
-  "workers": 1,
+[Mon, 22 Apr 2013 23:07:41 GMT] INFO Server starting with config: {
+  "environment": "production",
+  "workers": 2,
   "port": 26998,
   "spdy": null,
   "ssl": null,
-  "debug": true,
-  "rotateWorkers": false,
+  "debug": false,
+  "rotateWorkers": true,
   "rotationWindow": 7200000,
   "rotationTimeout": 300000,
   "logDir": "/home/ffullenk/desarrollo/edifacillanding/log",
@@ -14,7 +14,7 @@
   "heartbeatWindow": 20000,
   "staticFilePath": "/home/ffullenk/desarrollo/edifacillanding/public",
   "sessions": {
-    "store": "memory",
+    "store": "cookie",
     "key": "sid",
     "expiry": 1209600
   },
@@ -29,11 +29,21 @@
   "hostname": "localhost",
   "fullHostname": "http://localhost:26998",
   "connectCompatibility": false,
-  "detailedErrors": true,
+  "detailedErrors": false,
   "model": {
-    "defaultAdapter": "memory"
+    "defaultAdapter": "mongo"
   },
-  "secret": "UYAjIMm76hf0L17gxUhNoLNBwnXIKKqBfbuOCzzEU1YVw5THF0bHlye8dZ3yQLjT1ZZjEjZQHNTDiTCMWz2h8xnGVb0Vr6n4lFdnDVndoIC1AkhyqSlrzwVG0xJkuhzk"
+  "db": {
+    "mongo": {
+      "username": null,
+      "dbname": "production",
+      "prefix": null,
+      "password": null,
+      "host": "localhost",
+      "port": 27017
+    }
+  }
 }
-[Tue, 23 Apr 2013 02:06:21 GMT] INFO Creating 1 worker process.
-[Tue, 23 Apr 2013 02:06:22 GMT] INFO Server worker running in development on port 26998 with a PID of: 3919
+[Mon, 22 Apr 2013 23:07:41 GMT] INFO Creating 2 worker processes.
+[Mon, 22 Apr 2013 23:07:42 GMT] INFO Server worker running in production on port 26998 with a PID of: 10086
+[Mon, 22 Apr 2013 23:07:42 GMT] INFO Server worker running in production on port 26998 with a PID of: 10088

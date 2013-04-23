@@ -18,21 +18,10 @@
 
 var config = {
   detailedErrors: false
-, hostname: 'edifacil.com'
+, hostname: 'localhost'
 , port: 26998
-, model: {
-    defaultAdapter: 'mongo'
-  }
-, db: {
-    mongo: {
-      username: null
-    , dbname: 'production'
-    , prefix: null
-    , password: null
-    , host: 'localhost'
-    , port: 27017
-    }
-  }
+
+, 
 
 /* // Using Postgres as the default, with only a Postgres DB
 , model: {

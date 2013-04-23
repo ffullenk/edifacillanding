@@ -19,7 +19,7 @@
 var config = {
   detailedErrors: true
 , debug: true
-, hostname: 'edifacil.com'
+, hostname: 'localhost'
 , port: 26998
 , model: {
     defaultAdapter: 'memory'

@@ -1,0 +1,7 @@
+[Mon, 22 Apr 2013 23:07:48 GMT] ERROR No app-secret found. Must run "geddy secret".
+Error: No app-secret found. Must run "geddy secret".
+    at Cookie.read (/usr/local/lib/node_modules/geddy/lib/sessions/stores/cookie.js:38:13)
+    at init (/usr/local/lib/node_modules/geddy/lib/sessions/index.js:86:19)
+    at null._onTimeout (/usr/local/lib/node_modules/geddy/lib/sessions/index.js:58:10)
+    at Timer.list.ontimeout (timers.js:100:19)
+    at process._makeCallback (node.js:248:20)
