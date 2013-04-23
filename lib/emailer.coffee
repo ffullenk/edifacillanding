@@ -36,8 +36,8 @@ class Emailer
     emailer.createTransport "SMTP",
       service: "Gmail"
       auth:
-        user: "francisco000@gmail.com"
-        pass: "facebookperro"
+        user: ""
+        pass: ""
 
   getHtml: (templateName, data)->
     templatePath = "./views/emails/#{templateName}.html"
