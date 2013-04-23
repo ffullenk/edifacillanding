@@ -17,9 +17,9 @@
 */
 
 var config = {
-  detailedErrors: false
-, hostname: 'localhost'
-, port: 26998
+  detailedErrors: true
+, hostname: null
+, port: 29765
 
 , 
 

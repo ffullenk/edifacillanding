@@ -19,8 +19,8 @@
 var config = {
   detailedErrors: true
 , debug: true
-, hostname: 'localhost'
-, port: 26998
+, hostname: null
+, port: 29765
 , model: {
     defaultAdapter: 'memory'
   }

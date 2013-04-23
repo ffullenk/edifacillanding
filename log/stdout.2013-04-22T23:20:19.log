@@ -1,0 +1,54 @@
+[Tue, 23 Apr 2013 02:06:21 GMT] INFO Server starting with config: {
+  "environment": "development",
+  "workers": 1,
+  "port": 26998,
+  "spdy": null,
+  "ssl": null,
+  "debug": true,
+  "rotateWorkers": false,
+  "rotationWindow": 7200000,
+  "rotationTimeout": 300000,
+  "logDir": "/home/ffullenk/desarrollo/edifacillanding/log",
+  "gracefulShutdownTimeout": 30000,
+  "heartbeatInterval": 5000,
+  "heartbeatWindow": 20000,
+  "staticFilePath": "/home/ffullenk/desarrollo/edifacillanding/public",
+  "sessions": {
+    "store": "memory",
+    "key": "sid",
+    "expiry": 1209600
+  },
+  "cookieSessionKey": "sdata",
+  "metrics": null,
+  "i18n": {
+    "defaultLocale": "en-us",
+    "loadPaths": [
+      "/home/ffullenk/desarrollo/edifacillanding/config/locales"
+    ]
+  },
+  "hostname": "localhost",
+  "fullHostname": "http://localhost:26998",
+  "connectCompatibility": false,
+  "detailedErrors": true,
+  "model": {
+    "defaultAdapter": "memory"
+  },
+  "secret": "UYAjIMm76hf0L17gxUhNoLNBwnXIKKqBfbuOCzzEU1YVw5THF0bHlye8dZ3yQLjT1ZZjEjZQHNTDiTCMWz2h8xnGVb0Vr6n4lFdnDVndoIC1AkhyqSlrzwVG0xJkuhzk"
+}
+[Tue, 23 Apr 2013 02:06:21 GMT] INFO Creating 1 worker process.
+[Tue, 23 Apr 2013 02:06:22 GMT] INFO Server worker running in development on port 26998 with a PID of: 3919
+[Tue, 23 Apr 2013 02:18:57 GMT] INFO Code changed, killing 3919, cycling ...
+[Tue, 23 Apr 2013 02:18:57 GMT] INFO Creating 1 worker process.
+[Tue, 23 Apr 2013 02:18:58 GMT] INFO Server worker running in development on port 26998 with a PID of: 4155
+[Tue, 23 Apr 2013 02:19:02 GMT] INFO Code changed, killing 4155, cycling ...
+[Tue, 23 Apr 2013 02:19:02 GMT] INFO Creating 1 worker process.
+[Tue, 23 Apr 2013 02:19:03 GMT] INFO Server worker running in development on port 26998 with a PID of: 4171
+[Tue, 23 Apr 2013 02:19:18 GMT] INFO Code changed, killing 4171, cycling ...
+[Tue, 23 Apr 2013 02:19:18 GMT] INFO Creating 1 worker process.
+[Tue, 23 Apr 2013 02:19:18 GMT] INFO Server worker running in development on port 26998 with a PID of: 4183
+[Tue, 23 Apr 2013 02:19:23 GMT] INFO Code changed, killing 4183, cycling ...
+[Tue, 23 Apr 2013 02:19:23 GMT] INFO Creating 1 worker process.
+[Tue, 23 Apr 2013 02:19:23 GMT] INFO Server worker running in development on port 26998 with a PID of: 4200
+[Tue, 23 Apr 2013 02:19:33 GMT] INFO Code changed, killing 4200, cycling ...
+[Tue, 23 Apr 2013 02:19:33 GMT] INFO Creating 1 worker process.
+[Tue, 23 Apr 2013 02:19:33 GMT] INFO Server worker running in development on port 26998 with a PID of: 4212
