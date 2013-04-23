@@ -1,6 +1,3 @@
-.brand h2 {
-	color: #fff;
-}
 html {
 	margin: 0;
 }
@@ -149,6 +146,7 @@ input[type="color"]:focus,
 .navbar .brand {
     font-size: 26px;
 	text-shadow: none;
+	color: #fff;
 }
 .navbar .nav.pull-right {
 	top: 10px;

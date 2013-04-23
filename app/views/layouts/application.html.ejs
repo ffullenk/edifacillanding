@@ -14,21 +14,18 @@
 
     <%- scriptLink('/js/jquery.min.js', {type:'text/javascript'}) %>
     <%- scriptLink('/js/bootstrap.min.js', {type:'text/javascript'}) %>
+    <%- scriptLink('/js/theme.js', {type: 'text/javascript'}) %>
     <%- scriptLink('/js/core/core.js', {type: 'text/javascript'}) %>
     <!-- <%- scriptLink('/js/models/your_model.js', {type:'text/javascript'}) %> -->
     <%- scriptLink('/js/config/init.js', {type: 'text/javascript'}) %>
-    <%- scriptLink('/js/theme.js', {type: 'text/javascript'}) %>
 
-    <%- styleLink('/css/bootstrap.min.css', {rel:'stylesheet'}) %>
-    <%- styleLink('/css/style.css', {rel:'stylesheet'}) %>
-    <%- styleLink('/css/animate.css', {rel:'stylesheet'}) %>
-    <%- styleLink('/css/blog.css', {rel:'stylesheet'}) %>
-    <%- styleLink('/css/external-pages.css', {rel:'stylesheet'}) %>
-    <%- styleLink('/css/reset.css', {rel:'stylesheet'}) %>
-    <%- styleLink('/css/signin.css', {rel:'stylesheet'}) %>
-    <%- styleLink('/css/signup.css', {rel:'stylesheet'}) %>
+
+
+
+    <%- styleLink('/css/bootstrap.css', {rel:'stylesheet'}) %>
     <%- styleLink('/css/theme.css', {rel:'stylesheet'}) %>
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <%- styleLink('/css/animate.css', {rel:'stylesheet'}) %>
+     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 
 
     <!-- The fav and touch icons -->
@@ -40,28 +37,26 @@
  <body>
    
     <!-- begins navbar -->
-  <div class="navbar navbar-fixed-top">
+    <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
             </a>
-            <a class="brand scroller" data-section="body" href="http://wwww.edifacil.com">
-                <h2>Edi<span class="bold">Fácil</span>.com</h2>
-
-
+            <a class="brand scroller" data-section="body" href="index.html">
+                EdiFácil.com
             </a>
-        <div class="nav-collapse collapse">
+            <div class="nav-collapse collapse">
                 <ul class="nav pull-right">
                     <li><a href="#" class="scroller" data-section="#features">Características</a></li>
                     <li><a href="#" class="scroller" data-section="#pricing">Tarifas</a></li>
-                    <li><a href="#" class="scroller" data-section="#footer">Contáctanos</a></li>
-                  
+                    <li><a href="#" class="scroller" data-section="#footer">Contacto</a></li>
+             
                     <li><a class="btn-header" href="http://app.edifacil.com">Ingresar</a></li>
                 </ul>
-          </div>
+            </div>
         </div>
       </div>
     </div>
@@ -135,3 +130,35 @@
 
 </body>
 </html>
+
+
+<script type="text/javascript">
+    
+$(document).ready(function(){   //executed after the page has loaded
+
+    loadPage(); //check if the URL has a reference to a page and load it
+
+ 
+
+});
+
+function loadPage()  //the function that loads pages via AJAX
+{
+   
+    $.ajax({    //create an ajax request to load_page.php
+        type: "GET",
+        url: "http://app.edifacil.com",
+       
+        dataType: "html",   //expect html to be returned
+        success: function(msg){
+
+            
+        }
+
+    });
+
+}
+
+
+
+</script>
