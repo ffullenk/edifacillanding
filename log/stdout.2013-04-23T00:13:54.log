@@ -1,4 +1,4 @@
-[Tue, 23 Apr 2013 03:13:54 GMT] INFO Server starting with config: {
+[Tue, 23 Apr 2013 03:12:28 GMT] INFO Server starting with config: {
   "environment": "development",
   "workers": 1,
   "port": 29765,
@@ -30,12 +30,13 @@
   "fullHostname": null,
   "connectCompatibility": false,
   "detailedErrors": true,
-  "socketIo": true,
-  "realtime": true,
   "model": {
     "defaultAdapter": "memory"
   },
   "secret": "UYAjIMm76hf0L17gxUhNoLNBwnXIKKqBfbuOCzzEU1YVw5THF0bHlye8dZ3yQLjT1ZZjEjZQHNTDiTCMWz2h8xnGVb0Vr6n4lFdnDVndoIC1AkhyqSlrzwVG0xJkuhzk"
 }
-[Tue, 23 Apr 2013 03:13:54 GMT] INFO Creating 1 worker process.
-[Tue, 23 Apr 2013 03:13:55 GMT] INFO Server worker running in development on port 29765 with a PID of: 5816
+[Tue, 23 Apr 2013 03:12:28 GMT] INFO Creating 1 worker process.
+[Tue, 23 Apr 2013 03:12:29 GMT] INFO Server worker running in development on port 29765 with a PID of: 5738
+[Tue, 23 Apr 2013 03:13:43 GMT] INFO Code changed, killing 5738, cycling ...
+[Tue, 23 Apr 2013 03:13:43 GMT] INFO Creating 1 worker process.
+[Tue, 23 Apr 2013 03:13:44 GMT] INFO Server worker running in development on port 29765 with a PID of: 5797

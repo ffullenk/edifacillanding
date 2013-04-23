@@ -17,11 +17,12 @@
 */
 
 var config = {
-  detailedErrors: true
+  detailedErrors: false
 , hostname: null
 , port: 29765
-
-, 
+, socketIo: true
+, realtime: true
+ 
 
 /* // Using Postgres as the default, with only a Postgres DB
 , model: {

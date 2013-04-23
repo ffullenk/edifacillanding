@@ -21,6 +21,8 @@ var config = {
 , debug: true
 , hostname: null
 , port: 29765
+, socketIo: true
+, realtime: true
 , model: {
     defaultAdapter: 'memory'
   }
