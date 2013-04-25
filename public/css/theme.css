@@ -386,6 +386,14 @@ input[type="color"]:focus,
 	position: relative;
 	font-weight: bold;
 }
+#pricing .price_wrapper .header .anual {
+	font-size: 15px;
+	top: 25px;
+	position: relative;
+	font-weight: italic;
+}
+
+
 #pricing .price_wrapper .header .price span {
 	font-size: 48px;
 	margin-right: 10px;
