@@ -23,8 +23,16 @@ var Main = function () {
     , template: 'app/views/main/index'
     });
   };
+
+  this.contact = function (req, resp, params) {
+    this.respond(params, {
+      format: 'html'
+    , template: 'app/views/main/contact'
+    });
+  };
+
+
 };
 
 exports.Main = Main;
-
 

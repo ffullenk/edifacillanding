@@ -1,4 +1,4 @@
-[Wed, 01 May 2013 19:13:17 GMT] INFO Server starting with config: {
+[Wed, 01 May 2013 18:30:32 GMT] INFO Server starting with config: {
   "environment": "development",
   "workers": 1,
   "port": 29765,
@@ -37,5 +37,8 @@
   },
   "secret": "UYAjIMm76hf0L17gxUhNoLNBwnXIKKqBfbuOCzzEU1YVw5THF0bHlye8dZ3yQLjT1ZZjEjZQHNTDiTCMWz2h8xnGVb0Vr6n4lFdnDVndoIC1AkhyqSlrzwVG0xJkuhzk"
 }
-[Wed, 01 May 2013 19:13:17 GMT] INFO Creating 1 worker process.
-[Wed, 01 May 2013 19:13:18 GMT] INFO Server worker running in development on port 29765 with a PID of: 8660
+[Wed, 01 May 2013 18:30:32 GMT] INFO Creating 1 worker process.
+[Wed, 01 May 2013 18:30:33 GMT] INFO Server worker running in development on port 29765 with a PID of: 7330
+[Wed, 01 May 2013 18:32:07 GMT] INFO Code changed, killing 7330, cycling ...
+[Wed, 01 May 2013 18:32:07 GMT] INFO Creating 1 worker process.
+[Wed, 01 May 2013 18:32:08 GMT] INFO Server worker running in development on port 29765 with a PID of: 7465

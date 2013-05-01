@@ -1,0 +1,2 @@
+[Wed, 01 May 2013 18:32:33 GMT] ACCESS 127.0.0.1 - - [Wed May 01 2013 14:32:33 GMT-0400 (CLT)] "GET /favicon.ico 1.1" undefined - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.63 Safari/537.31"
+[Wed, 01 May 2013 18:32:33 GMT] ACCESS 127.0.0.1 - - [Wed May 01 2013 14:32:33 GMT-0400 (CLT)] "GET / 1.1" undefined - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.63 Safari/537.31"
