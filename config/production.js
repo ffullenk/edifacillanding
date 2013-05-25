@@ -22,6 +22,7 @@ var config = {
 , port: 29765
 , socketIo: true
 , realtime: true
+, workers: 1
  
 
 /* // Using Postgres as the default, with only a Postgres DB
